@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master
+CMAKE_SOURCE_DIR = C:/Users/tzema/Documents/GitHub/NanoVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master
+CMAKE_BINARY_DIR = C:/Users/tzema/Documents/GitHub/NanoVM
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/CMakeFiles C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/NanoUnitTests//CMakeFiles/progress.marks
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/CMakeFiles 0
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Documents/GitHub/NanoVM/CMakeFiles C:/Users/tzema/Documents/GitHub/NanoVM/NanoUnitTests//CMakeFiles/progress.marks
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Documents/GitHub/NanoVM/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/clean
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/preinstall
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/preinstall
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 NanoUnitTests/CMakeFiles/NanoUnitTests.dir/rule:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/CMakeFiles/NanoUnitTests.dir/rule
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoUnitTests/CMakeFiles/NanoUnitTests.dir/rule
 .PHONY : NanoUnitTests/CMakeFiles/NanoUnitTests.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ NanoUnitTests: NanoUnitTests/CMakeFiles/NanoUnitTests.dir/rule
 
 # fast build rule for target.
 NanoUnitTests/fast:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build
 .PHONY : NanoUnitTests/fast
 
 __/NanoAssembler/Mapper.obj: __/NanoAssembler/Mapper.cpp.obj
@@ -145,7 +145,7 @@ __/NanoAssembler/Mapper.obj: __/NanoAssembler/Mapper.cpp.obj
 
 # target to build an object file
 __/NanoAssembler/Mapper.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/Mapper.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/Mapper.cpp.obj
 .PHONY : __/NanoAssembler/Mapper.cpp.obj
 
 __/NanoAssembler/Mapper.i: __/NanoAssembler/Mapper.cpp.i
@@ -153,7 +153,7 @@ __/NanoAssembler/Mapper.i: __/NanoAssembler/Mapper.cpp.i
 
 # target to preprocess a source file
 __/NanoAssembler/Mapper.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/Mapper.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/Mapper.cpp.i
 .PHONY : __/NanoAssembler/Mapper.cpp.i
 
 __/NanoAssembler/Mapper.s: __/NanoAssembler/Mapper.cpp.s
@@ -161,7 +161,7 @@ __/NanoAssembler/Mapper.s: __/NanoAssembler/Mapper.cpp.s
 
 # target to generate assembly for a file
 __/NanoAssembler/Mapper.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/Mapper.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/Mapper.cpp.s
 .PHONY : __/NanoAssembler/Mapper.cpp.s
 
 __/NanoAssembler/NanoAssembler.obj: __/NanoAssembler/NanoAssembler.cpp.obj
@@ -169,7 +169,7 @@ __/NanoAssembler/NanoAssembler.obj: __/NanoAssembler/NanoAssembler.cpp.obj
 
 # target to build an object file
 __/NanoAssembler/NanoAssembler.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/NanoAssembler.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/NanoAssembler.cpp.obj
 .PHONY : __/NanoAssembler/NanoAssembler.cpp.obj
 
 __/NanoAssembler/NanoAssembler.i: __/NanoAssembler/NanoAssembler.cpp.i
@@ -177,7 +177,7 @@ __/NanoAssembler/NanoAssembler.i: __/NanoAssembler/NanoAssembler.cpp.i
 
 # target to preprocess a source file
 __/NanoAssembler/NanoAssembler.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/NanoAssembler.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/NanoAssembler.cpp.i
 .PHONY : __/NanoAssembler/NanoAssembler.cpp.i
 
 __/NanoAssembler/NanoAssembler.s: __/NanoAssembler/NanoAssembler.cpp.s
@@ -185,7 +185,7 @@ __/NanoAssembler/NanoAssembler.s: __/NanoAssembler/NanoAssembler.cpp.s
 
 # target to generate assembly for a file
 __/NanoAssembler/NanoAssembler.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/NanoAssembler.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoAssembler/NanoAssembler.cpp.s
 .PHONY : __/NanoAssembler/NanoAssembler.cpp.s
 
 __/NanoVM/NanoVM.obj: __/NanoVM/NanoVM.cpp.obj
@@ -193,7 +193,7 @@ __/NanoVM/NanoVM.obj: __/NanoVM/NanoVM.cpp.obj
 
 # target to build an object file
 __/NanoVM/NanoVM.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoVM/NanoVM.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoVM/NanoVM.cpp.obj
 .PHONY : __/NanoVM/NanoVM.cpp.obj
 
 __/NanoVM/NanoVM.i: __/NanoVM/NanoVM.cpp.i
@@ -201,7 +201,7 @@ __/NanoVM/NanoVM.i: __/NanoVM/NanoVM.cpp.i
 
 # target to preprocess a source file
 __/NanoVM/NanoVM.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoVM/NanoVM.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoVM/NanoVM.cpp.i
 .PHONY : __/NanoVM/NanoVM.cpp.i
 
 __/NanoVM/NanoVM.s: __/NanoVM/NanoVM.cpp.s
@@ -209,7 +209,7 @@ __/NanoVM/NanoVM.s: __/NanoVM/NanoVM.cpp.s
 
 # target to generate assembly for a file
 __/NanoVM/NanoVM.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoVM/NanoVM.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/__/NanoVM/NanoVM.cpp.s
 .PHONY : __/NanoVM/NanoVM.cpp.s
 
 test.obj: test.cpp.obj
@@ -217,7 +217,7 @@ test.obj: test.cpp.obj
 
 # target to build an object file
 test.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/test.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/test.cpp.obj
 .PHONY : test.cpp.obj
 
 test.i: test.cpp.i
@@ -225,7 +225,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/test.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -233,7 +233,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/test.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoUnitTests/CMakeFiles/NanoUnitTests.dir/build.make NanoUnitTests/CMakeFiles/NanoUnitTests.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -269,6 +269,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

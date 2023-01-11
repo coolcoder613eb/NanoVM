@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/tzema/Documents/GitHub/NanoVM/NanoAssembler/CMakeLists.txt
+  Nano.cpp
+  NanoAssembler.cpp
+  Mapper.cpp
+  Generating Code...
+  NanoAssembler.vcxproj -> C:\Users\tzema\Documents\GitHub\NanoVM\NanoAssembler\Debug\NanoAssembler.exe

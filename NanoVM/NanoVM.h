@@ -146,6 +146,7 @@ public:
 	 * @param code Points to the bytecode to be loaded
 	 * @param size Holds the size of the bytecode to be loaded
 	*/
+	
 	NanoVM(unsigned char* code, uint64_t size);
 
 	/**

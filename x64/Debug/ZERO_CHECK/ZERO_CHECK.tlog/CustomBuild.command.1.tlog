@@ -1,0 +1,10 @@
+^C:\USERS\TZEMA\DOCUMENTS\GITHUB\NANOVM\CMAKEFILES\868A02D496DE7AFC3F86F971F250E723\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tzema/Documents/GitHub/NanoVM -BC:/Users/tzema/Documents/GitHub/NanoVM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tzema/Documents/GitHub/NanoVM/NanoVM.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

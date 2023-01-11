@@ -25,6 +25,7 @@ NanoVM::NanoVM(unsigned char* code, uint64_t size) {
 	cpu.registers[bp] = cpu.codeSize;
 }
 
+
 NanoVM::NanoVM(std::string fileName) {
 	memset(&cpu, 0x00, sizeof(cpu));
 	// Zero out registers

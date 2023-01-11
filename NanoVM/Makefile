@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master
+CMAKE_SOURCE_DIR = C:/Users/tzema/Documents/GitHub/NanoVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master
+CMAKE_BINARY_DIR = C:/Users/tzema/Documents/GitHub/NanoVM
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/CMakeFiles C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/NanoVM//CMakeFiles/progress.marks
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/CMakeFiles 0
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Documents/GitHub/NanoVM/CMakeFiles C:/Users/tzema/Documents/GitHub/NanoVM/NanoVM//CMakeFiles/progress.marks
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Documents/GitHub/NanoVM/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/clean
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/preinstall
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/preinstall
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 NanoVM/CMakeFiles/NanoVM.dir/rule:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/CMakeFiles/NanoVM.dir/rule
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoVM/CMakeFiles/NanoVM.dir/rule
 .PHONY : NanoVM/CMakeFiles/NanoVM.dir/rule
 
 # Convenience name for target.
@@ -137,39 +137,15 @@ NanoVM: NanoVM/CMakeFiles/NanoVM.dir/rule
 
 # fast build rule for target.
 NanoVM/fast:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/build
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/build
 .PHONY : NanoVM/fast
-
-Nano.obj: Nano.cpp.obj
-.PHONY : Nano.obj
-
-# target to build an object file
-Nano.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/Nano.cpp.obj
-.PHONY : Nano.cpp.obj
-
-Nano.i: Nano.cpp.i
-.PHONY : Nano.i
-
-# target to preprocess a source file
-Nano.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/Nano.cpp.i
-.PHONY : Nano.cpp.i
-
-Nano.s: Nano.cpp.s
-.PHONY : Nano.s
-
-# target to generate assembly for a file
-Nano.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/Nano.cpp.s
-.PHONY : Nano.cpp.s
 
 NanoVM.obj: NanoVM.cpp.obj
 .PHONY : NanoVM.obj
 
 # target to build an object file
 NanoVM.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/NanoVM.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/NanoVM.cpp.obj
 .PHONY : NanoVM.cpp.obj
 
 NanoVM.i: NanoVM.cpp.i
@@ -177,7 +153,7 @@ NanoVM.i: NanoVM.cpp.i
 
 # target to preprocess a source file
 NanoVM.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/NanoVM.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/NanoVM.cpp.i
 .PHONY : NanoVM.cpp.i
 
 NanoVM.s: NanoVM.cpp.s
@@ -185,7 +161,7 @@ NanoVM.s: NanoVM.cpp.s
 
 # target to generate assembly for a file
 NanoVM.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/NanoVM.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoVM/CMakeFiles/NanoVM.dir/build.make NanoVM/CMakeFiles/NanoVM.dir/NanoVM.cpp.s
 .PHONY : NanoVM.cpp.s
 
 # Help Target
@@ -198,9 +174,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... NanoVM"
-	@echo "... Nano.obj"
-	@echo "... Nano.i"
-	@echo "... Nano.s"
 	@echo "... NanoVM.obj"
 	@echo "... NanoVM.i"
 	@echo "... NanoVM.s"
@@ -215,6 +188,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

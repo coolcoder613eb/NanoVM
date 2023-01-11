@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master
+CMAKE_SOURCE_DIR = C:/Users/tzema/Documents/GitHub/NanoVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master
+CMAKE_BINARY_DIR = C:/Users/tzema/Documents/GitHub/NanoVM
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,14 +97,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/CMakeFiles C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/NanoDebugger//CMakeFiles/progress.marks
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master/CMakeFiles 0
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Documents/GitHub/NanoVM/CMakeFiles C:/Users/tzema/Documents/GitHub/NanoVM/NanoDebugger//CMakeFiles/progress.marks
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/tzema/Documents/GitHub/NanoVM/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/clean
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/preinstall
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/preinstall
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 NanoDebugger/CMakeFiles/NanoDebugger.dir/rule:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/CMakeFiles/NanoDebugger.dir/rule
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NanoDebugger/CMakeFiles/NanoDebugger.dir/rule
 .PHONY : NanoDebugger/CMakeFiles/NanoDebugger.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ NanoDebugger: NanoDebugger/CMakeFiles/NanoDebugger.dir/rule
 
 # fast build rule for target.
 NanoDebugger/fast:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/build
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/build
 .PHONY : NanoDebugger/fast
 
 Debugger.obj: Debugger.cpp.obj
@@ -145,7 +145,7 @@ Debugger.obj: Debugger.cpp.obj
 
 # target to build an object file
 Debugger.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Debugger.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Debugger.cpp.obj
 .PHONY : Debugger.cpp.obj
 
 Debugger.i: Debugger.cpp.i
@@ -153,7 +153,7 @@ Debugger.i: Debugger.cpp.i
 
 # target to preprocess a source file
 Debugger.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Debugger.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Debugger.cpp.i
 .PHONY : Debugger.cpp.i
 
 Debugger.s: Debugger.cpp.s
@@ -161,7 +161,7 @@ Debugger.s: Debugger.cpp.s
 
 # target to generate assembly for a file
 Debugger.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Debugger.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Debugger.cpp.s
 .PHONY : Debugger.cpp.s
 
 Instructions.obj: Instructions.cpp.obj
@@ -169,7 +169,7 @@ Instructions.obj: Instructions.cpp.obj
 
 # target to build an object file
 Instructions.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Instructions.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Instructions.cpp.obj
 .PHONY : Instructions.cpp.obj
 
 Instructions.i: Instructions.cpp.i
@@ -177,7 +177,7 @@ Instructions.i: Instructions.cpp.i
 
 # target to preprocess a source file
 Instructions.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Instructions.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Instructions.cpp.i
 .PHONY : Instructions.cpp.i
 
 Instructions.s: Instructions.cpp.s
@@ -185,7 +185,7 @@ Instructions.s: Instructions.cpp.s
 
 # target to generate assembly for a file
 Instructions.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Instructions.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/Instructions.cpp.s
 .PHONY : Instructions.cpp.s
 
 NanoDebugger.obj: NanoDebugger.cpp.obj
@@ -193,7 +193,7 @@ NanoDebugger.obj: NanoDebugger.cpp.obj
 
 # target to build an object file
 NanoDebugger.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/NanoDebugger.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/NanoDebugger.cpp.obj
 .PHONY : NanoDebugger.cpp.obj
 
 NanoDebugger.i: NanoDebugger.cpp.i
@@ -201,7 +201,7 @@ NanoDebugger.i: NanoDebugger.cpp.i
 
 # target to preprocess a source file
 NanoDebugger.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/NanoDebugger.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/NanoDebugger.cpp.i
 .PHONY : NanoDebugger.cpp.i
 
 NanoDebugger.s: NanoDebugger.cpp.s
@@ -209,7 +209,7 @@ NanoDebugger.s: NanoDebugger.cpp.s
 
 # target to generate assembly for a file
 NanoDebugger.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/NanoDebugger.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/NanoDebugger.cpp.s
 .PHONY : NanoDebugger.cpp.s
 
 __/NanoVM/NanoVM.obj: __/NanoVM/NanoVM.cpp.obj
@@ -217,7 +217,7 @@ __/NanoVM/NanoVM.obj: __/NanoVM/NanoVM.cpp.obj
 
 # target to build an object file
 __/NanoVM/NanoVM.cpp.obj:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/__/NanoVM/NanoVM.cpp.obj
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/__/NanoVM/NanoVM.cpp.obj
 .PHONY : __/NanoVM/NanoVM.cpp.obj
 
 __/NanoVM/NanoVM.i: __/NanoVM/NanoVM.cpp.i
@@ -225,7 +225,7 @@ __/NanoVM/NanoVM.i: __/NanoVM/NanoVM.cpp.i
 
 # target to preprocess a source file
 __/NanoVM/NanoVM.cpp.i:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/__/NanoVM/NanoVM.cpp.i
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/__/NanoVM/NanoVM.cpp.i
 .PHONY : __/NanoVM/NanoVM.cpp.i
 
 __/NanoVM/NanoVM.s: __/NanoVM/NanoVM.cpp.s
@@ -233,7 +233,7 @@ __/NanoVM/NanoVM.s: __/NanoVM/NanoVM.cpp.s
 
 # target to generate assembly for a file
 __/NanoVM/NanoVM.cpp.s:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/__/NanoVM/NanoVM.cpp.s
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(MAKE) $(MAKESILENT) -f NanoDebugger/CMakeFiles/NanoDebugger.dir/build.make NanoDebugger/CMakeFiles/NanoDebugger.dir/__/NanoVM/NanoVM.cpp.s
 .PHONY : __/NanoVM/NanoVM.cpp.s
 
 # Help Target
@@ -269,6 +269,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/Users/tzema/Downloads/NanoVM-master/NanoVM-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/tzema/Documents/GitHub/NanoVM && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
